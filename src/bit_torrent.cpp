@@ -388,7 +388,6 @@ void tracker(int numtasks, int rank) {
 		}
 
 		MPI_Status status;
-		char wanted_file[MAX_FILENAME];
 		int request;
 
 		// receive the request type
